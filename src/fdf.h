@@ -6,14 +6,14 @@
 /*   By: merlich <merlich@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 22:19:51 by merlich           #+#    #+#             */
-/*   Updated: 2022/01/21 21:42:22 by merlich          ###   ########.fr       */
+/*   Updated: 2022/01/22 22:52:33 by merlich          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
 
-# include "mlx.h"
+# include "../mlx/mlx.h"
 # include <math.h>
 # include <unistd.h>
 # include <stdlib.h>
