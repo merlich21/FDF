@@ -19,7 +19,6 @@ static int	ft_key_hook(int keycode, t_fdf *params)
 		mlx_destroy_image(params->mlx_ptr, params->img);
 		mlx_destroy_window(params->mlx_ptr, params->win_ptr);
 		exit(EXIT_SUCCESS);
-		return (0);
 	}
 	return (0);
 }
