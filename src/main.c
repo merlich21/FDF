@@ -25,11 +25,11 @@ static int	ft_key_hook(int keycode, t_fdf *params)
 
 static void	ft_init(t_matrix *data, t_fdf *params, char *filename)
 {
-	params->zoom = 10;
+	params->zoom = 4;
 	params->angle = 90.15;
 	params->window_x = 1920;
 	params->window_y = 1080;
-	params->shift_x = params->window_x / 3;
+	params->shift_x = params->window_x / 12;
 	params->shift_y = params->window_y / 2;
 	data->filename = filename;
 	return ;
